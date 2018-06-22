@@ -26,6 +26,7 @@ An AJAX enabled dropdown select box.
   - Receive the selected / entered text  
   
   ```onOptionSelected={this.optionSelected}```
+  ```onSubmit={this.optionSelected}```
 
 ## Sample app
 This repository includes a sample app (app.js) that demonstrates displaying auto complete suggestions from YouTube. To run the example:
