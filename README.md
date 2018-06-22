@@ -4,22 +4,22 @@ An AJAX enabled dropdown select box.
 
 ![alt text](https://raw.githubusercontent.com/zohar-israel/react-native-ajax-auto-suggest/master/AjaxAutoSuggest.jpg "")
 # Usage
-  - Configure your API url 
+  - Configure your API url  
   ```buildApiURL={(text)=> '<YOUR_API_URL>?q=' + encodeURIComponent(text)}```
 
-  - Define how to parse the response
+  - Define how to parse the response  
   ```parseResults={(responseText)=> JSON.parse(responseText)}```
 
-  - Receive the selected / entered text
+  - Receive the selected / entered text  
   ```onOptionSelected={this.optionSelected}```
 
 ## Sample app
 This repository includes a sample app (app.js) that demonstrates displaying auto complete suggestions from YouTube. To run the example:
-  - Clone this repository 
+  - Clone this repository  
   ```git clone https://github.com/zohar-israel/react-native-ajax-auto-suggest.git```
-  - In the sample app directory, use npm to install the dependent react-native libraries
+  - In the sample app directory, use npm to install the dependent react-native libraries  
   ```npm install```
-  - Make sure you have a mobile device or an emulator connected, and run the app with
+  - Make sure you have a mobile device or an emulator connected, and run the app with  
   ```npm start```
 # Dependencies
   - None. 
