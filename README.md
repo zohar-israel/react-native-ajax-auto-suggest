@@ -37,10 +37,6 @@ This repository includes a sample app (app.js) that demonstrates displaying auto
   ```npm start```
 # Dependencies
   - None. 
-  - Import it at the top of your file from it's path  
-  ```import { AjaxAutosuggest } from './AjaxAutosuggest';```
-  - Include it in your code like any react-native component  
-  ```<AjaxAutosuggest .../>```
 ## Usage example
 
 ```
