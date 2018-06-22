@@ -3,22 +3,30 @@
 An AJAX enabled dropdown select box.
 
 ![alt text](https://raw.githubusercontent.com/zohar-israel/react-native-ajax-auto-suggest/master/AjaxAutoSuggest.jpg "")
+# Installation
+  - Add the AjaxAutosuggest.js file to your project
+
 # Usage
+  - Import AjaxAutosuggest (from the path you put it in)
+
+  ```import { AjaxAutosuggest } from './AjaxAutosuggest';```
+  
+  - Use it in your code like any react-native component  
+  
+  ```<AjaxAutosuggest .../>```
+  
   - Configure your API url  
+  
   ```buildApiURL={(text)=> '<YOUR_API_URL>?q=' + encodeURIComponent(text)}```
 
   - Define how to parse the response  
+  
   ```parseResults={(responseText)=> JSON.parse(responseText)}```
 
   - Receive the selected / entered text  
-  ```onOptionSelected={this.optionSelected}```
-# Installation
-  - Add the AutoSuggest.js file to your project
-  - Import it at the top of your file from it's path  
-  ```import { AjaxAutosuggest } from './AjaxAutosuggest';```
-  - Include it in your code like any react-native component  
-  ```<AjaxAutosuggest .../>```
   
+  ```onOptionSelected={this.optionSelected}```
+
 ## Sample app
 This repository includes a sample app (app.js) that demonstrates displaying auto complete suggestions from YouTube. To run the example:
   - Clone this repository  
@@ -29,8 +37,6 @@ This repository includes a sample app (app.js) that demonstrates displaying auto
   ```npm start```
 # Dependencies
   - None. 
-# Installation
-  - Add the AutoSuggest.js file to your project
   - Import it at the top of your file from it's path  
   ```import { AjaxAutosuggest } from './AjaxAutosuggest';```
   - Include it in your code like any react-native component  
