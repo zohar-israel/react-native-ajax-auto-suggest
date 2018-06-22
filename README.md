@@ -25,7 +25,7 @@ An AJAX enabled dropdown select box.
 
   - Receive the selected / entered text  
   
-  ```onOptionSelected={this.optionSelected}```
+  ```onOptionSelected={this.optionSelected}```  
   ```onSubmit={this.optionSelected}```
 
 ## Sample app
