@@ -12,7 +12,13 @@ An AJAX enabled dropdown select box.
 
   - Receive the selected / entered text  
   ```onOptionSelected={this.optionSelected}```
-
+# Installation
+  - Add the AutoSuggest.js file to your project
+  - Import it at the top of your file from it's path  
+  ```import { AjaxAutosuggest } from './AjaxAutosuggest';```
+  - Include it in your code like any react-native component  
+  ```<AjaxAutosuggest .../>```
+  
 ## Sample app
 This repository includes a sample app (app.js) that demonstrates displaying auto complete suggestions from YouTube. To run the example:
   - Clone this repository  
@@ -25,9 +31,9 @@ This repository includes a sample app (app.js) that demonstrates displaying auto
   - None. 
 # Installation
   - Add the AutoSuggest.js file to your project
-  - Import it at the top of your file from it's path
+  - Import it at the top of your file from it's path  
   ```import { AjaxAutosuggest } from './AjaxAutosuggest';```
-  - Include it in your code like any react-native component
+  - Include it in your code like any react-native component  
   ```<AjaxAutosuggest .../>```
 ## Usage example
 
